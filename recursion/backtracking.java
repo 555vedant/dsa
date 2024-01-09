@@ -18,7 +18,7 @@ public class backtracking {
             return;
             
         }
-        maze[row][cols]=false;
+        maze[row][cols]=true;
 
         if (row<maze.length) {
             back(path+"D", maze, row+1, cols);
@@ -34,7 +34,7 @@ public class backtracking {
             back(path+"L", maze, row, cols+1);
             
         }
-        maze[row][cols]=true;
+        maze[row][cols]=false;
 
     }
     public static void main(String[] args) {
