@@ -5,33 +5,21 @@ import java.util.Arrays;
 public class insersionsort {
 
     public static void main(String[] args) {
-        int arr[]={ 6,5,3,1,8,7,2,4};
-        for(int i =1 ; i< arr.length ; i++){
-            int a = arr[i];
+        int arr[] = {6, 5, 3, 1, 8, 7, 2, 4};
 
-            for(int j = i -1 ; j>=0; j-- ){
-              
-               
-                    if(arr[i] < arr[j]){
-                        arr[j]=a;
-                        a=arr[i-1];
-                    }
-              
-               
-                // else{
-                //     break;
-                // }
-               
-                
+        for (int i = 1; i < arr.length; i++) {
+            int key = arr[i];
+            int j = i - 1;
 
+            // Move elements of arr[0..i-1] that are greater than key to one position ahead of their current position
+            while (j >= 0 && arr[j] > key) {
+                arr[j + 1] = arr[j];
+                j--;
             }
-            //  a=arr[i-1];
-           
 
+            arr[j + 1] = key;
         }
-        System.out.println("the sorted array after inserstion sort is " + Arrays.toString(arr));
 
-
-        
+        System.out.println("The sorted array after insertion sort is " + Arrays.toString(arr));
     }
 }
