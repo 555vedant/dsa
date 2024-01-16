@@ -17,7 +17,7 @@ public class permutationsum {
             if (arr[i] <= target) {
                 currentList.add(arr[i]);
                 result.addAll(permu(currentList, arr, target, i + 1, currentSum + arr[i]));
-                currentList.remove(currentList.size()); // Backtrack
+                currentList.remove(currentList.size()-1); // Backtrack
             }
         }
 
