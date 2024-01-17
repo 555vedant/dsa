@@ -3,7 +3,8 @@ package recursion;
 //backtracking mince apan jya box madun nigalo titthe false lawyche pan recursion call madun wapas yachya wles it should be true so it is callid as backtracking
 
 
-public class backtracking {
+public class backtracking 
+{
     static void back(String path , boolean maze[][] ,  int row , int cols){
     
 
