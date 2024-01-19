@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "interfaces",
+            "request": "launch",
+            "mainClass": "oop.interfaces",
+            "projectName": "DSA_d57e6ce0"
+        },
+        {
+            "type": "java",
+            "name": "thiskeyword",
+            "request": "launch",
+            "mainClass": "oop.thiskeyword",
+            "projectName": "DSA_d57e6ce0"
+        },
+        {
+            "type": "java",
+            "name": "Animal",
+            "request": "launch",
+            "mainClass": "oop.Animal",
+            "projectName": "DSA_d57e6ce0"
+        },
+        {
+            "type": "java",
             "name": "Solution",
             "request": "launch",
             "mainClass": "recursion.Solution",
