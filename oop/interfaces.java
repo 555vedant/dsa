@@ -57,6 +57,6 @@ public class interfaces {
         System.out.println("Circle - Area: " + circle.calculateArea() + ", Perimeter: " + circle.calculatePerimeter());
 
         // Print area and perimeter of the rectangle
-        System.out.println("Rectangle - Area: " + rectangle.calculateArea() + ", Perimeter: " + rectangle.calculatePerimeter());
+        System.out.println("Rectangle-Area: " + rectangle.calculateArea() + ", Perimeter: " + rectangle.calculatePerimeter());
     }
 }

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lambda",
+            "request": "launch",
+            "mainClass": "oop.lambda",
+            "projectName": "DSA_d57e6ce0"
+        },
+        {
+            "type": "java",
+            "name": "generics",
+            "request": "launch",
+            "mainClass": "oop.generics",
+            "projectName": "DSA_d57e6ce0"
+        },
+        {
+            "type": "java",
             "name": "interfaces",
             "request": "launch",
             "mainClass": "oop.interfaces",
