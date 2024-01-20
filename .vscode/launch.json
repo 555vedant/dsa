@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Perimeter",
+            "request": "launch",
+            "mainClass": "recursion.Perimeter",
+            "projectName": "DSA_d57e6ce0"
+        },
+        {
+            "type": "java",
+            "name": "peri",
+            "request": "launch",
+            "mainClass": "recursion.peri",
+            "projectName": "DSA_d57e6ce0"
+        },
+        {
+            "type": "java",
+            "name": "perimeter",
+            "request": "launch",
+            "mainClass": "recursion.perimeter",
+            "projectName": "DSA_d57e6ce0"
+        },
+        {
+            "type": "java",
+            "name": "exceptionhandaling",
+            "request": "launch",
+            "mainClass": "oop.exceptionhandaling",
+            "projectName": "DSA_d57e6ce0"
+        },
+        {
+            "type": "java",
             "name": "lambda",
             "request": "launch",
             "mainClass": "oop.lambda",
