@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "permuationwithpali",
+            "request": "launch",
+            "mainClass": "recursion.permuationwithpali",
+            "projectName": "DSA_d57e6ce0"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "recursion.test",
+            "projectName": "DSA_d57e6ce0"
+        },
+        {
+            "type": "java",
             "name": "Perimeter",
             "request": "launch",
             "mainClass": "recursion.Perimeter",

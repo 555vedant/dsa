@@ -21,7 +21,7 @@ public class perimeter {
     private int calculatePerimeter(int[][] grid, int i, int j) {
         // Base cases for recursion
         if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || grid[i][j] == 0) {
-            return 0;  // Return 1 for water cells and cells outside the grid
+            return 1;  // Return 1 for water cells and cells outside the grid
         }
 
         // Check if the cell is already visited
@@ -32,7 +32,7 @@ public class perimeter {
         // Mark the cell as visited
         grid[i][j] = -1;
 
-        int perimeter = 1;
+        int perimeter = 0;
 
         // Recur in all four directions
         perimeter += calculatePerimeter(grid, i + 1, j);
