@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "interfacsystemofcars",
+            "request": "launch",
+            "mainClass": "oop.interfacsystemofcars",
+            "projectName": "DSA_d57e6ce0"
+        },
+        {
+            "type": "java",
             "name": "permuationwithpali",
             "request": "launch",
             "mainClass": "recursion.permuationwithpali",

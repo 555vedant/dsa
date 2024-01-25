@@ -8,10 +8,10 @@ public class exceptionhandaling {
             // Code that may throw exceptions
             int result = divide(10, 0); // Change divisor to a non-zero value
             System.out.println("Result: " + result);
-        } catch (ArithmeticException e) {
-            // Handle ArithmeticException
+        } catch (Exception exception) {
+            // Handle Exception
             
-            System.err.println("Error: " + e.toString());
+            System.err.println("Error: " + exception.toString());
         } finally {
             // Cleanup code
             System.out.println("Finally block: Cleanup code here");
@@ -19,9 +19,9 @@ public class exceptionhandaling {
     }
 
     // Custom method that may throw an exception
-    private static int divide(int a, int b) {
+    private static int divide(int a, int b) throws Exception {
         if (b == 0) {
-            throw new ArithmeticException("Cannot divide by zero");
+            throw new Exception("Cannot divide by zero");
         }
         return a / b;
     }
