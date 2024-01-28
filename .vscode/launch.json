@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "genericquestion",
+            "request": "launch",
+            "mainClass": "oop.genericquestion",
+            "projectName": "DSA_d57e6ce0"
+        },
+        {
+            "type": "java",
             "name": "interfacsystemofcars",
             "request": "launch",
             "mainClass": "oop.interfacsystemofcars",
