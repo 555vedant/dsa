@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "DSA_d57e6ce0"
+        },
+        {
+            "type": "java",
+            "name": "exchangeSort",
+            "request": "launch",
+            "mainClass": "exchangeSort",
+            "projectName": "DSA_d57e6ce0"
+        },
+        {
+            "type": "java",
+            "name": "exchnagesort",
+            "request": "launch",
+            "mainClass": "exchnagesort",
+            "projectName": "DSA_d57e6ce0"
+        },
+        {
+            "type": "java",
             "name": "genericquestion",
             "request": "launch",
             "mainClass": "oop.genericquestion",
