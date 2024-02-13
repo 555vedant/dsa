@@ -14,11 +14,11 @@ public class maze1inarraylist {
         }
         ArrayList<String> list =new ArrayList<>();
         if (row>1) {
-            list.addall(maze(path+"D", row-1, cols));
+            list.add(maze(path+"D", row-1, cols));
             
         }
         if (cols >1) {
-             list.addall(maze(path+"R", row, cols-1));
+             list.add(maze(path+"R", row, cols-1));
             
         }
         return list;

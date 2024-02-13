@@ -44,7 +44,7 @@ public class sqrt {
 
     public static void main(String[] args) {
         int n =40;
-        int p = 3;
+        int p = 1;
         
         System.out.println(sqrt(n, p));
 
