@@ -1,4 +1,6 @@
 package linkedlist;
+//making this fuck without using the static keyword
+
 
 import java.util.Scanner;
 

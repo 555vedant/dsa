@@ -61,6 +61,25 @@ public class deletion {
         }
         System.out.println();
     }
+    //adding node at a random path
+    void addlist(int data , int index){
+        //index will show that where you have to add new node
+        Node newnode = new Node(data);
+        Node temp = head;
+        int i =0;
+        while(i ==index) {
+            
+            newnode = temp.next;
+
+
+
+
+            
+        }
+        temp = head.next;
+        
+    }
+
     
     public static void main(String[] args) {
         deletion l1 = new deletion();
