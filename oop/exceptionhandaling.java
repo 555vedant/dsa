@@ -7,11 +7,11 @@ public class exceptionhandaling {
         try {
             // Code that may throw exceptions
             int result = divide(10, 0); // Change divisor to a non-zero value
-            System.out.println("Result: " + result);
+            System.out.println( result);
         } catch (Exception exception) {
             // Handle Exception
             
-            System.err.println("Error: " + exception.toString());
+            System.err.println("Error: " + exception.getMessage());
         } finally {
             // Cleanup code
             System.out.println("Finally block: Cleanup code here");

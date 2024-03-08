@@ -33,6 +33,7 @@ class dogo extends InnerAnimal{
         // TODO Auto-generated method stub
         super.eat();
     }
+    
 }
 /**
  * InnerAnimal
