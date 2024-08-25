@@ -8,7 +8,7 @@ public class heap<T extends comparable<T>> {
         this.list = new ArrayList<>();
     }
     //method for swap 
-    public void swap(int index1 , int index1){
+    public void swap(int index1 , int index2){
         int temp =list.get(index1);
         list.set(index1 , list.get(index2));
         list.set(index2 , temp );

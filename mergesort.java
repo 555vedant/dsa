@@ -20,7 +20,7 @@ public class mergesort {
                     
                 }
                 else{
-                    newarry[i]=arr[j];
+                    newarry[i]=arr[i];
                 }
             }
         }
